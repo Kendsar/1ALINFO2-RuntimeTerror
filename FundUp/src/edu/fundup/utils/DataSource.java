@@ -11,7 +11,7 @@ import javax.management.RuntimeErrorException;
  */
 public class DataSource {
     
-    String url = "jdbc:mysql://localhost:3306/[DATABASENAME]";
+    String url = "jdbc:mysql://localhost:3306/charity";
     String login = "root";
     String password = "";
     private Connection connection;
